@@ -1,0 +1,67 @@
+.hero-container{
+    width: 1280px;
+    height: 518px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    /* temp */
+    background-color: lightpink;
+    border: solid 1px black; 
+}
+
+.section-eyebrow{
+    width: 281px;
+    height: 50px;
+    border-radius: 12px;
+    border: solid 1px black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* temp */
+    background-color: lightblue;
+}
+.hero-title{
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+}
+.hero-title span{
+    color: lightblue
+}
+.hero-description{
+    font-size: 18px;
+}
+.hero-actions{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.hero_btn{
+    width: 174px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    /* temp */
+    border: solid 1px black;
+    
+}
+
+.hero_btn.btn-primary{
+    background-color: yellow;
+    color: red;
+
+}
+
+.hero_btn.btn-secondary{
+    background-color: green;
+}
