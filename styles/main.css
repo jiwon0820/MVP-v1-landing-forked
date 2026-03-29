@@ -3,12 +3,14 @@ body {
 }
 
 .hero-say {
+  font-family: "Escoredream", sans-serif;
   font-weight: bold;
   font-size: 36px;
   color: #f5df4d;
 }
 
 .description-text {
+  font-family: "GMarketSans", sans-serif;
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.7;
@@ -17,18 +19,21 @@ body {
 }
 
 .description-text span {
+  font-family: "GMarketSans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   color: #ffffff;
 }
 
 .aim-input {
+  font-family: "GMarketSans", sans-serif;
   font-weight: 400;
   font-size: 24px;
   color: #ffffff;
 }
 
 .aim-label input {
+  font-family: "GMarketSans", sans-serif;
   font-weight: 400;
   font-size: 24px;
   text-align: center;
@@ -41,6 +46,25 @@ body {
 }
 
 .btn-yellow {
+  font-family: "GMarketSans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #5b2386;
+  text-align: center;
+  line-height: 24px;
+}
+
+.btn_yellow {
+  font-family: "GMarketSans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #5b2386;
+  text-align: center;
+  line-height: 24px;
+}
+
+.btn-white {
+  font-family: "GMarketSans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   color: #5b2386;

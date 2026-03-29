@@ -1,6 +1,6 @@
 body {
   background-color: #5b2386;
-  font-family: "GMarketSans,sans-serif";
+  font-family: "GMarketSans", sans-serif;
 }
 
 .pageone {
@@ -95,10 +95,13 @@ main {
 }
 
 .aim-submit {
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.aim-output {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 16px;
 }
 
 .btn-yellow {
@@ -113,12 +116,38 @@ main {
   margin-top: 40px;
 }
 
+.btn_yellow {
+  width: 356px;
+  height: 66px;
+  border-radius: 56px;
+  border: none;
+  background-color: #fcee21;
+  white-space: nowrap;
+  padding: 21px 49px;
+  gap: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin-right: 18px;
+}
+
+.btn-white {
+  width: 191px;
+  height: 66px;
+  border-radius: 56px;
+  border: none;
+  padding: 21px 49px;
+  gap: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
 .aim-submit img {
-  position: relative;
+  width: 4.3rem;
+  height: 4.8rem;
+  position: absolute;
+  top: 3.2rem;
+  left: 36rem;
+}
+
+.action {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 12px;
-  align-self: flex-end;
-  margin-bottom: -8px;
 }
