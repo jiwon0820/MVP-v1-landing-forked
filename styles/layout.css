@@ -151,3 +151,57 @@ main {
   display: flex;
   align-items: center;
 }
+
+footer {
+  margin-bottom: 15px;
+}
+
+.footer-logo {
+  justify-content: center;
+}
+
+.cheer-page {
+  display: none;
+  position: fixed;
+  width: 800px;
+  height: 800px;
+  border-radius: 30px;
+  inset: 0;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  margin: 0 auto;
+}
+
+.cheer-page.active {
+  display: flex;
+}
+
+.cheer-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: -50px;
+}
+
+.cheer-img {
+  width: 433px;
+  height: 337px;
+  top: 355px;
+  left: 184px;
+  margin-bottom: 50px;
+}
+
+.cheer-btn {
+  height: 66px;
+  border-radius: 56px;
+  border: none;
+  background-color: #fcee21;
+  padding: 21px 49px;
+  gap: 10px
+  white-space: nowrap;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}

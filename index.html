@@ -73,7 +73,7 @@
                 </div>
             </section>
             <section class="action">
-                <button class="btn btn_yellow">
+                <button class="btn btn_yellow" onclick="openModal()">
                     훈련하러 가기 GO! GO!
                 </button>
                 <button class="btn btn-white">
@@ -88,5 +88,24 @@
             </p>
         </footer>
     </div>
+    <div class="cheer-page" id="cheerPage">
+        <div class="cheer-box">
+            <h2 class="cheer-title">화이팅!!♥♥♥</h2>
+            <p class="cheer-sub">당신의 꿈을 응원합니다!</p>
+            <img class="cheer-img" src="./img/라이캣.png" alt="응원 캐릭터 라이캣" />
+            <button class="btn cheer-btn" onclick="closeCheer()">
+                종료하고 진짜 훈련하러 가기 GO!GO!
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById('cheerPage').classList.add('active');
+        }
+        function closeCheer() {
+            document.getElementById('cheerPage').classList.remove('active');
+        }
+    </script>
 </body>
 </html>
