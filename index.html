@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"
+    content="width=device-width,
+        initial-scale=1.0,
+        maximum-scale=5.0,
+        minimum-scale=1.0,
+        user-scalable=yes" />
+    <meta name="description" content="여기에 텍스트 입력" />
+    <title>Practice-01</title>
+
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/base.css" />
+</head>
+<body>
+    <div class="pageone">
+        <main>
+            <section class="hero">
+                <div class="hero-img">
+                    <img class="hero-title" src="./img/title.png" alt="1만 시간의 법칙"/>
+                    <img class="hero-clock" src="./img/clock.png" alt="" />
+                </div>
+                <p class="hero-say">
+                    “연습은 어제의 당신보다 당신을 더 낫게 만든다.”
+                </p>
+            </section>
+            <section class="description">
+                <div class="dercription-img">
+                    <img class="description-quoteleft" src="./img/“.png" alt="" />
+                    <p class="description-text">
+                        <span>1만 시간의 법칙</span>은 <br />
+                        어떤 분야의 전문가가 되기 위해서는 <br />
+                        최소한 1만 시간의 훈련이 필요하다는 법칙이다.
+                    </p>
+                    <img class="description-quoteright" src="./img/”.png" alt="" />
+                </div>
+            </section>
+            <section class="aim">
+                <div class="aim-input">
+                    <label class="aim-label aim-label-goal">
+                        <span>나는</span>
+                        <input class="aim-label-goal" type="text" placeholder="예&#41;프로그래밍">
+                        <span>전문가가 될 것이다.</span>
+                    </label>
+                    <br>
+                    <label class="aim-label aim-label-time">
+                        <span>그래서 앞으로 매일 하루에</span>
+                        <input class="aim-label-time" type="text" placeholder="예&#41;5시간">
+                        <span>시간씩 훈련할 것이다.</span>
+                    </label>
+                </div>
+                <div class="aim-submit">
+                    <button class="btn btn-yellow">
+                        나는 며칠 동안 훈련을 해야 1만 시간이 될까?
+                    </button>
+                    <img src="./img/click.png" alt="" />
+                </div>
+                <div class="aim-output">
+                    <div class="row1">
+                        <span>당신은</span>
+                        <span class="aim-result-goal">프로그래밍</span>
+                        <span>전문가가 되기 위해서</span>
+                    </div>
+                    <div class="row2">
+                        <span>대략</span>
+                        <span class="aim-result-days">1111</span>
+                        <span>일 이상 훈련하셔야 합니다! :&#41</span>
+                    </div>
+                </div>
+            </section>
+            <section class="action">
+                <button class="btn btn_yellow" onclick="openModal()">
+                    훈련하러 가기 GO! GO!
+                </button>
+                <button class="btn btn-white">
+                    공유하기
+                </button>
+            </section>
+        </main>
+        <footer>
+            <img class="footer-logo" src="./img/weniv.png" alt="weniv 로고">
+            <p class="copyright">
+                ※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 WeNiv에 있습니다. <br> 수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.
+            </p>
+        </footer>
+    </div>
+    <div class="cheer-page" id="cheerPage">
+        <div class="cheer-box">
+            <h2 class="cheer-title">화이팅!!♥♥♥</h2>
+            <p class="cheer-sub">당신의 꿈을 응원합니다!</p>
+            <img class="cheer-img" src="./img/라이캣.png" alt="응원 캐릭터 라이캣" />
+            <button class="btn cheer-btn" onclick="closeCheer()">
+                종료하고 진짜 훈련하러 가기 GO!GO!
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById('cheerPage').classList.add('active');
+        }
+        function closeCheer() {
+            document.getElementById('cheerPage').classList.remove('active');
+        }
+    </script>
+</body>
+</html>
