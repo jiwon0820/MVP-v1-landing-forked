@@ -1,0 +1,121 @@
+body {
+  text-align: center;
+}
+
+.hero-say {
+  font-family: "Escoredream", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #f5df4d;
+}
+
+.description-text {
+  font-family: "GMarketSans", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  margin-top: -30px;
+  color: #ffffff;
+}
+
+.description-text span {
+  font-family: "GMarketSans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.aim-input {
+  font-family: "GMarketSans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.aim-label input {
+  font-family: "GMarketSans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 24px;
+  color: #5b2386;
+}
+
+.btn-yellow {
+  font-family: "GMarketSans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #5b2386;
+  text-align: center;
+  line-height: 24px;
+}
+
+.btn_yellow {
+  font-family: "GMarketSans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #5b2386;
+  text-align: center;
+  line-height: 24px;
+}
+
+.btn-white {
+  font-family: "GMarketSans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #5b2386;
+  text-align: center;
+  line-height: 24px;
+}
+
+.aim-output {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.aim-result-goal,
+.aim-result-days {
+  font-weight: 700;
+  font-size: 72px;
+  color: #ffffff;
+}
+
+.copyright {
+  font-family: "NotoSansKR", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.cheer-title {
+  font-family: "JoyfulStory", sans-serif;
+  font-weight: 700;
+  font-size: 96px;
+  color: #5b2386;
+  margin: 0;
+}
+
+.cheer-sub {
+  font-family: "JoyfulStory", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #5b2386;
+  margin: 0;
+  margin-top: -25px;
+}
+
+.cheer-btn {
+  font-family: "GMarketSans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5b2386;
+}
