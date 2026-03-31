@@ -10,3 +10,5 @@
 
 1. button 눌렀을 때 다른 페이지로 호출 등 -> javascript로 위임
 2. interaction
+
+우선 이렇게 피드백 받은 내용들을 잘 처리해보자!
